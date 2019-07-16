@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заказ BOGUSLAVSKY COFFEE </title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/order.css" />
+	<link rel="stylesheet" href="css/media_order.css" />
+</head>
+<body>
+<div class="wrap_order">
+	<div class="b1">
+		<div class="b1_bg"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-0 col-lg-3">
+					<a href="index.html" class="back">
+						на главную
+					</a>
+				</div>
+				<div class="col-md-12 col-lg-9">
+					<h2 class="b1_f_title">оформить заказ</h2>
+					<h1 class="b1_m_title">MARAGODGYPE</h1>
+					<h4 class="b1_t_title">coffee</h4>
+					<p class="b1_t_text">
+						Компания "Семейные ценности" будет рада доставить лучший кофе в Ваш дом.  
+					</p>
+					<p class="b1_t_price">
+						473.00 грн
+					</p>
+				</div>
+			</div>
+			<div class="row b2">
+				<div class="col-lg-4 col-md-6">
+					<div class="b2_im">
+						<img src="img/order/4.png" alt="" class="b2_im_im">
+						<img src="img/order/zerna.png" alt="" class="mol">
+					</div>
+					<h3 class="b2_f_title">
+						coffee shop
+					</h3>
+					<h4 class="b2_title">
+						BOGUSLAVSKY
+					</h4>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="b2_count">
+						<div class="b2_count_bg"></div>
+						<div class="b2_count_bg"></div>
+						<h3 class="b2_count_title">
+							Выберите УПАКОВКУ:
+						</h3>
+						<input id="radio1" type="radio" class="b2_count_radio" checked="" name="group1" value="Упаковка на 1 килограм">
+						<label for="radio1" class="b2_count_radio_label">
+							1 килограм
+						</label>	
+						<input id="radio2" type="radio" class="b2_count_radio" name="group1" value="Упаковка 4 х 250 грам">
+						<label for="radio2" class=" b2_count_radio_label2">
+							4 х 250 грам
+						</label>
+						<div class="pom_wrap">
+							<h5 class="b2_pom">Помол:</h5>
+
+							<input id="radio3" type="radio" class="b2_count_radio_pom"  name="group2" value="молотый">
+							<label for="radio3" class="b2_count_radio_label_pom">
+								молотый:
+							</label>
+
+							<input id="radio4" type="radio" class="b2_count_radio_pom" checked="" name="group2" value="зерновой">
+							<label for="radio4" class="b2_count_radio_label_pom2">
+								зерновой:
+							</label>
+						</div>
+						<div class="b2_col">
+							Введите количество КИЛОГРАМ:
+						</div>
+
+						<input id="radio5" type="radio" class="b2_count_radio_kilo"  name="group3" value="1">
+						<label for="radio5" class="b2_count_radio_label_kilo">
+							1 килограм
+						</label>
+
+						<input id="radio6" type="radio" class="b2_count_radio_kilo" checked="" name="group3" value="1">
+						<label for="radio6" class="b2_count_radio_label_kilo2">
+							<span class="b2_1">1</span>
+							<input value="1" type="text" class="b2_count_radio_label_kilo2_input">
+						</label>
+						<h4 class="b2_count_price_t">
+							Итого к оплате:
+						</h4>
+						<div class="b2_count_price">
+							473.00 грн
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-12 b2_form_wrap">
+					<form action="" class="b2_form">
+						<h4 class="b2_form_title">
+							Для заказа заполните информацию 
+						</h4>
+						<input name="name" type="text" class="b2_form_name" placeholder="иМЯ">
+						<input name="phone" type="text" class="b2_form_phone" placeholder="тЕЛЕФОН">
+						<input name="email" type="email" class="b2_form_email" placeholder="поЧТА">
+						<h4 class="b2_form_title2">
+							Информация о доставке
+						</h4>
+						<input name="region" type="text" class="b2_form_obl" placeholder="Область">
+						<input name="city" type="text" class="b2_form_gor" placeholder="Город">
+						<input name="address" type="text" class="b2_form_adr" placeholder="Адресс">
+						<textarea class="b2_form_area" name="area" id="" placeholder="Комментарий"></textarea>
+						<input name="info" type="text" class="b2_form_hid" value="">
+						<button type="submit" class="b2_form_submit">Заказать</button>
+					</form>
+					
+				</div>				
+			</div>
+		</div>
+		
+	</div>
+</div> <!-- END WRAP ORDER -->
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery.maskedinput.min.js"></script>
+	<script src="libs/jquery.placeholder.min.js"></script>
+	<script src="js/common_order.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
